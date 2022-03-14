@@ -1,7 +1,8 @@
 let navMenu;
+let hamburger;
 
-window.onload=() => {
-    const hamburger = document.getElementById("hamburger");
+window.onload = () => {
+    hamburger = document.getElementById("hamburger");
     navMenu = document.getElementById("nav-menu");
 
     hamburger.addEventListener("click", toggleMenu);
