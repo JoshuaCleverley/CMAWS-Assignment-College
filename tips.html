@@ -10,9 +10,10 @@
         <title>Tips & Tricks</title>
     </head>
     <body>
+        <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Welcome</a>
+              <a class="navbar-brand" href="./index.html">Skyrim </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -38,10 +39,100 @@
             </div>
           </nav>
 
-          <h1 class="display-1 text-center">Tips & Tricks</h1>
+          <h1 class="display-1 text-center mt-5">Tips & Tricks</h1>
 
-          <div class="container text-center">
-              
+          <div class="container text-center w-75">
+            <!-- Youtube video of tips -->
+            <iframe class="mt-5" width="560" height="315" src="https://www.youtube.com/embed/eKoR1pJVmC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="text-muted">Video by GameVibz</p>
+
+            <div class="accordion mt-5" id="tips-accordion">
+              <!-- Tip #1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Read books to increase skills
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#tips-accordion">
+                  <div class="accordion-body">
+                    <p>
+                      Many books in Skyrim can be read in order to gain skill increases. This can help you level early, or be used later to get the last couple levels in a skill without having to do tons of work.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Tip #2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                    Standing stones
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tips-accordion">
+                  <div class="accordion-body">
+                    <p>
+                      Standing stones are used to give the player many different benefits, and can be a great help in building a powerful character.
+                      The first standing stones can be found just down the road when you finish the first quest.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Tip #3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+                    Quicksaves
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tips-accordion">
+                  <div class="accordion-body">
+                    <p>
+                      Quicksaves allow you to safely take an action without risk of losing hours of progress. This can be used to make certain tasks, such as pickpocketing and lockpicking, trivial as you can try repeatedly until you are successful, however this can take the challenge and fun out of those aspects of the game.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Tip #4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+                    Stealth
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#tips-accordion">
+                  <div class="accordion-body">
+                    <p>
+                      A common meme in the Skyrim community is that every player ends up becoming a stealth archer. This isn't just a joke though - the stealth skill allows you to do massive damage with very little risk, and is definitely the most powerful build you can choose.
+                      It is generally better and more enjoyable to play as a character though, as it is a role playing game. This can mean using weaker builds, such as a mage character, in order to have a specific story.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Tip #5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">
+                    Side quests
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#tips-accordion">
+                  <div class="accordion-body">
+                    <p>
+                      Focusing purely on the main questline can make the game seem duller than it really is. Side quests allow you to meet interesting character, and go to parts of the map you wouldn't normally. It is a good idea to complete many of these as you progress through the game, as it increases the quality and fun of the game dramatically.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="text-muted">Tips provided by <a href="https://gamerant.com/elder-scrolls-skyrim-beginner-tips/">GameRant</a></p>
           </div>
+
+          <footer class="mt-5 text-center text-muted">
+            <p>
+              Website created by Joshua Cleverley<br/>
+              For the creating and managing websites module
+            </p>
+          </footer>
     </body>
 </html>
